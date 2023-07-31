@@ -60,7 +60,12 @@ export default function Page({ params }) {
           <h1>{project.display_name}</h1>
           {project.live_site && (
             <h5>
-              <Link href={project.live_site} className={styles.weblink}>
+              <Link
+                href={project.live_site}
+                className={styles.weblink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 VIEW WEBSITE
               </Link>
             </h5>
