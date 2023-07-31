@@ -1,19 +1,19 @@
 "use client";
-import React, { useCallback } from "react";
+import React from "react";
 import styles from "../styles/contactmebutton.module.css";
 import { useRouter } from "next/navigation";
 
 const Contactmebutton = () => {
   const router = useRouter();
 
-  const handleEmailClick = useCallback(() => {
+  const handleEmailClick = () => {
     router.push("mailto:beaula.favejee@outlook.com");
-  }, [router]);
+  };
 
   return (
     <button
       type="button"
-      onClick={handleEmailClick}
+      onClick={() => handleEmailClick}
       className={styles.emailmebutton}
     >
       CONTACT ME
