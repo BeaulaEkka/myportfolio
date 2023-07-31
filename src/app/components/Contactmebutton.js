@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 const Contactmebutton = () => {
   const router = useRouter();
 
-  const handleEmailClick = useCallbackk(() => {
+  const handleEmailClick = useCallback(() => {
     router.push("mailto:beaula.favejee@outlook.com");
   }, [router]);
 
