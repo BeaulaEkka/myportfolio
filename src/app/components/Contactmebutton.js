@@ -11,13 +11,13 @@ const Contactmebutton = () => {
   };
 
   return (
-    <button
-      type="button"
-      onClick={() => handleEmailClick}
-      className={styles.emailmebutton}
-    >
-      CONTACT ME
-    </button>
+    // <button
+    //   type="button"
+    //   onClick={() => handleEmailClick}
+    //   className={styles.emailmebutton}
+    // >
+    //   CONTACT ME
+    // </button>
   );
 };
 
