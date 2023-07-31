@@ -1,0 +1,93 @@
+.hero_javascript {
+  transition: transform 0.5s ease;
+}
+.hero_container_nightsky {
+  background-image: url(/assets/multipleclouds.jpg);
+  background-size: cover;
+}
+
+.hero_container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.hero_elements_container {
+  margin: 0rem auto 0rem auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: visible;
+  padding: 3rem;
+}
+.hero_child {
+  position: absolute;
+  top: 15rem;
+  right: 25%;
+}
+
+.hero_text {
+  text-align: left;
+  margin: 1rem auto;
+  position: absolute;
+  top: 20rem;
+  left: 20rem;
+}
+.hero_text_lg {
+  color: var(--lightpink);
+}
+.hero_text_sm {
+  color: var(--darkgray);
+}
+
+.hero_main_container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: row;
+}
+
+.hero_reactlogo {
+  position: absolute;
+  top: 20rem;
+  right: 5rem;
+}
+
+.hero_laptop {
+  position: absolute;
+  top: 30rem;
+  left: 30%;
+}
+
+.hero_mobile {
+  position: absolute;
+  right: 10%;
+  top: 5rem;
+}
+.hero_mobile:hover {
+  transform: rotate(-30deg);
+}
+
+.hero_superwoman {
+  position: absolute;
+  right: -5%;
+}
+.landingPage_container {
+  width: 100vw;
+  height: 100vh;
+}
+.hero_htmllogo {
+  position: absolute;
+  bottom: -25rem;
+  right: 7rem;
+}
+.hero_css_logo {
+  position: absolute;
+  top: 20rem;
+  left: 10rem;
+}
+.hero_colorcards {
+  position: absolute;
+  top: 20rem;
+  right: 20rem;
+}

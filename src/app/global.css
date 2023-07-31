@@ -1,0 +1,89 @@
+:root {
+  --darkorange: hsl(28, 100%, 50%);
+  --darkpink: hsl(353, 80%, 61%);
+  --darkblue: hsl(193, 46%, 16%);
+  --darkgray: hsl(0, 0%, 47%);
+  --lightblue: hsl(195, 73%, 70%);
+  --lightpink: hsl(353, 99%, 71%);
+  --lightorange: hsl(40, 98%, 56%);
+
+  --lightpinktransparent: hsl(353, 99%, 71%, 0.8);
+  --darkpinktransparent: hsl(353, 80%, 61%, 0.8);
+  --lightorangetransparent: hsl(40, 98%, 56%, 0.8);
+  /* Your default theme */
+  --background: rgb(201, 28, 28);
+  --foreground: rgb(20, 33, 72);
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.darkMode {
+  background-color: black;
+  color: white;
+}
+
+[data-theme="dark"] {
+  --background: rgb(19, 40, 58);
+  --foreground: rgb(255, 255, 255);
+}
+
+html {
+  box-sizing: border-box;
+  font-family: Inter;
+  font-size: 1rem;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Default margins */
+
+html,
+body,
+header,
+footer,
+main,
+section,
+div,
+p,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* img {
+  max-width: 100%;
+} */
+
+ul,
+li {
+  list-style: none;
+}
+
+/* https://css-tricks.com/the-focus-visible-trick/ */
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+Link:hover {
+  transition: 0.3s;
+}
+Link {
+  color: inherit;
+  text-decoration: none;
+}
+/* ⚠️ Don't edit this file. ⚠️  */

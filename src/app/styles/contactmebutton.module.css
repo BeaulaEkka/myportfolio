@@ -1,0 +1,13 @@
+.emailmebutton {
+  background-color: var(--lightorange);
+  padding: 0.5rem 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: none;
+  color: white;
+  font-size: clamp(1rem, 0.8rem + 1vw, 1.5rem);
+  font-weight: 500;
+}
+.emailmebutton:hover {
+  background-color: var(--darkorange);
+}

@@ -1,0 +1,44 @@
+.socialmedia_ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  width: 30%;
+  height: 3rem;
+}
+.iconlinkedin {
+  font-size: 2rem;
+  color: var(--lightpink);
+  cursor: pointer;
+}
+.iconlinkedin:hover {
+  color: var(--darkpink);
+  font-size: 2.2rem;
+}
+
+.iconbehance {
+  font-size: 2rem;
+  color: var(--lightblue);
+  cursor: pointer;
+}
+.iconbehance:hover {
+  color: var(--darkblue);
+  font-size: 2.2rem;
+}
+.icongithub {
+  font-size: 2rem;
+  color: var(--lightorange);
+  cursor: pointer;
+}
+.icongithub:hover {
+  color: var(--darkorange);
+  font-size: 2.2rem;
+}
+.icondribbble {
+  font-size: 2rem;
+  color: var(--darkpink);
+  cursor: pointer;
+}
+.icondribbble:hover {
+  color: rgb(190, 42, 67);
+  font-size: 2.2rem;
+}

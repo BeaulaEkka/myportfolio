@@ -1,6 +1,7 @@
 import styles from "../page.module.css";
-import Image from "next/image";
 import Link from "next/link";
+import { BsLinkedin, BsBehance, BsGithub, BsDribbble } from "react-icons/bs";
+
 const Aside = () => {
   return (
     <aside>
@@ -10,23 +11,26 @@ const Aside = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            src="/assets/linkedin-icon.svg"
-            alt="LinkedIn Icon"
+          <BsLinkedin
             width={30}
             height={30}
+            alt="LinkedIn Icon"
+            style={{ color: "var(--lightpink)", cursor: "pointer" }}
+            className={styles.iconhover}
           />
         </Link>
+
         <Link
           href="https://www.behance.net/beaula"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            src="/assets/behance.svg"
-            alt="LinkedIn Icon"
+          <BsBehance
             width={30}
             height={30}
+            alt="behance Icon"
+            style={{ color: "var(--lightblue)", cursor: "pointer" }}
+            className={styles.iconhover}
           />
         </Link>
         <Link
@@ -34,11 +38,12 @@ const Aside = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            src="/assets/github.svg"
-            alt="github Icon"
+          <BsGithub
             width={30}
             height={30}
+            alt="github Icon"
+            style={{ color: "var(--lightorange)", cursor: "pointer" }}
+            className={styles.iconhover}
           />
         </Link>
         <Link
@@ -46,11 +51,12 @@ const Aside = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            src="/assets/dribbble.svg"
-            alt="dribble Icon"
+          <BsDribbble
             width={30}
             height={30}
+            alt="Dribbble Icon"
+            style={{ color: "var(--darkpink)", cursor: "pointer" }}
+            className={styles.iconhover}
           />
         </Link>
       </div>

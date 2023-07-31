@@ -1,0 +1,98 @@
+.projects_container_id {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  top: 4rem;
+}
+
+.id_body {
+  font-size: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
+  line-height: 1.5;
+  font-weight: regular;
+}
+.id_body h1 {
+  margin: 2rem 0;
+  text-transform: uppercase;
+  margin-left: 1rem;
+}
+
+.description {
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+.heroContainer_id {
+  margin: auto;
+}
+.heroImage_id {
+  width: 100vw;
+  height: 70vh;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.id_role_card {
+  position: absolute;
+  top: 2%;
+  right: 5%;
+  background: rgb(32, 67, 110);
+  color: white;
+  width: 15rem;
+  height: 21rem;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+.id_card_gap {
+  margin-top: 1rem;
+}
+.id_body {
+  width: 80%;
+  margin: auto;
+}
+.portfolio_id_image {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+}
+.id_overview_btn {
+  background-color: var(--lightorange);
+  color: white;
+  padding: 1rem;
+  border: none;
+  margin: 2rem auto;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  transition: background-color 0.3s ease;
+}
+.id_overview_btn:hover {
+  background-color: var(--darkorange);
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+}
+.heading h5 {
+  margin: 2rem 0;
+  padding: 1rem;
+}
+.weblink {
+  width: 30%;
+  background-color: var(--lightorange);
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 0.3rem;
+  transition: background-color 0.3s ease;
+}
+.weblink:hover {
+  background-color: var(--darkorange);
+}
+@media screen and (max-width: 650px) {
+  .heading h5 {
+    margin-top: -1rem;
+  }
+  .heading {
+    flex-direction: column;
+  }
+}

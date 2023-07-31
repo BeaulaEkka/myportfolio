@@ -1,0 +1,146 @@
+.nav_main_container {
+  width: 100%;
+  z-index: 9999;
+  height: 4rem;
+  background-color: var(--lightblue);
+  justify-content: center;
+  padding: 1rem;
+  color: white;
+  position: fixed;
+}
+
+.nav_logo {
+  font-size: 1.5rem;
+  color: white;
+}
+.hamburger_menu_bar {
+  width: 2rem;
+  background-color: rgb(255, 255, 255);
+  height: 0.25rem;
+}
+
+.nav_hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-self: center;
+  margin: 0 0 0 1rem;
+}
+.nav_hamburger_desktopmenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav {
+  width: 80%;
+  display: none;
+}
+.nav_menu {
+  display: none;
+}
+.nav_menu.open {
+  display: block;
+  animation: slideIn 0.3s ease-in-out;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.nav ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.nav_ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0rem 1rem 0rem 1rem;
+  font-size: 1.2rem;
+  padding-right: 1rem;
+  gap: 2rem;
+  list-style: none;
+  text-decoration: none;
+}
+.nav_li {
+  list-style: none;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+.nav_li:hover {
+  /* padding-bottom: 0.3rem; */
+  /* border-bottom: 0.3rem solid var(--lightorange); */
+  color: var(--lightorange);
+}
+.nav_ul_active {
+  padding-bottom: 0.7rem;
+  border-bottom: 0.3rem solid rgb(28, 186, 28);
+}
+
+.nav_mobile_ul {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.nav_mobile_li {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.nav_mobile_li:hover {
+  color: var(--lightorange);
+}
+
+.activeLink {
+  padding-bottom: 0.7rem;
+  border-bottom: 0.3rem solid rgb(28, 186, 28);
+}
+@media (min-width: 686px) {
+  .nav {
+    display: flex;
+  }
+  .nav_hamburger {
+    display: none;
+  }
+}
+.nav_mobile_logoheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.nav_themeswitch {
+  margin: 0 1rem;
+  width: 1rem;
+}
+.nav_mobile {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 99;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  color: white;
+}

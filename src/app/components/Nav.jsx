@@ -1,57 +1,151 @@
 "use client";
-import styles from "../page.module.css";
+import React, { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
+import { LiaMoonSolid, LiaSunSolid } from "react-icons/lia";
+import styles from "../styles/nav.module.css";
 import Link from "next/link";
 
-import { useTheme } from "next-themes";
-import { RiMoonFill, RiSunLine } from "react-icons/ri";
-import { IoMdMenu, IoMdClose } from "react-icons/io";
-
-import { useState } from "react";
-
 const Nav = () => {
-  const { systemTheme, theme, setTheme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
-  const [nav, setNav] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
+  const { theme, resolvedTheme, setTheme } = useTheme();
+
+  const toggleMenu = () => {
+    setShowMenu((prevState) => !prevState);
+  };
+
+  const closeMenu = () => {
+    setShowMenu(false);
+  };
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 400) {
+        closeMenu();
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const toggleTheme = () => {
+    setTheme(resolvedTheme === "light" ? "dark" : "light");
+  };
+
+  const themeIcon =
+    theme === "light" ? (
+      <LiaMoonSolid onClick={toggleTheme} />
+    ) : (
+      <LiaSunSolid onClick={toggleTheme} />
+    );
+
   return (
-    <nav className={styles.nav}>
-      <div>
-        <div>{"< Beaula />"}</div>
-        <div className={styles.nav_mobile}>
-          <button>{nav ? <IoMdClose /> : <IoMdMenu />}</button>
+    <nav className={styles.nav_main_container}>
+      <div className={styles.nav_mobile_logoheader}>
+        <Link
+          passHref
+          href="/"
+          style={{
+            textDecoration: "none",
+          }}
+        >
+          {" "}
+          <div className={styles.nav_logo}>{"< Beaula />"}</div>
+        </Link>
+
+        <div className={styles.nav_hamburger_desktopmenu}>
+          <div className={`${styles.nav} ${showMenu ? styles.open : ""}`}>
+            <ul className={`${styles.nav_ul} ${showMenu ? styles.active : ""}`}>
+              <Link
+                passHref
+                href="/"
+                style={{
+                  textDecoration: "none",
+                }}
+              >
+                {" "}
+                <li className={styles.nav_li}>Home </li>
+              </Link>
+              <Link
+                passHref
+                href={"/#aboutPagea"}
+                style={{ textDecoration: "none" }}
+              >
+                <li className={styles.nav_li}>About</li>
+              </Link>{" "}
+              <Link
+                passHref
+                href="/#portfolioPage"
+                style={{ textDecoration: "none" }}
+              >
+                <li className={styles.nav_li}>Portfolio </li>{" "}
+              </Link>
+              <Link
+                href="/assets/resume.pdf"
+                alt="alt text"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "block",
+                  width: "100%",
+                  textDecoration: "none",
+                }}
+              >
+                <li className={styles.nav_li}>Resume</li>
+              </Link>
+              <li className={styles.nav_li}> {themeIcon}</li>
+            </ul>
+          </div>
+
+          <div className={styles.nav_hamburger} onClick={toggleMenu}>
+            <div className={styles.hamburger_menu_bar}></div>
+            <div className={styles.hamburger_menu_bar}></div>
+            <div className={styles.hamburger_menu_bar}></div>
+          </div>
         </div>
       </div>
-      <div>
-        <ul className={styles.nav_ul}>
-          <li className="nav_li">Home</li>
-          <Link href="#aboutPage" attribute="id">
-            <li>About</li>
-          </Link>
-          <Link href="#Portfolio" attribute="id">
-            <li>Portfolio</li>
-          </Link>
-          <li>Resume</li>
+      {showMenu && (
+        <div className={styles.nav_mobile}>
+          <ul className={styles.nav_mobile_ul}>
+            <Link
+              href="/"
+              onClick={closeMenu}
+              style={{ textDecoration: "none" }}
+            >
+              <li className={styles.nav_mobile_li}>Home </li>
+            </Link>
 
-          {currentTheme === "dark" ? (
-            <button
-              onClick={() => setTheme("light")}
-              // className="bg-slate-100 p-2 rounded-xl"
+            <Link
+              href="/#aboutPage"
+              onClick={closeMenu}
+              style={{ textDecoration: "none" }}
             >
-              <RiSunLine size={25} color="var(--lightblue)" />
-            </button>
-          ) : (
-            <button
-              onClick={() => setTheme("dark")}
-              // className="bg-slate-100 p-2 rounded-xl"
+              <li className={styles.nav_mobile_li}>About </li>
+            </Link>
+
+            <Link
+              href="/#portfolioPage"
+              onClick={closeMenu}
+              style={{ textDecoration: "none" }}
             >
-              <RiMoonFill
-                size={25}
-                color="black"
-                backgroundColor="var(--lightblue)"
-              />
-            </button>
-          )}
-        </ul>
-      </div>
+              <li className={styles.nav_mobile_li}>Portfolio </li>
+            </Link>
+
+            <li
+              className={styles.nav_mobile_li}
+              onClick={() => {
+                toggleTheme();
+                closeMenu();
+              }}
+            >
+              {" "}
+              Theme
+            </li>
+          </ul>
+        </div>
+      )}
     </nav>
   );
 };
