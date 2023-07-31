@@ -1,0 +1,31 @@
+.one {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid green;
+  margin: 2rem;
+}
+.two {
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid pink;
+  margin: 2rem;
+}
+.about_confetti {
+  position: relative;
+}
+.confetti {
+  position: absolute;
+}
+.three {
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 90px solid transparent;
+  border-top: 50px solid rgb(242, 148, 7);
+  margin: 2rem;
+  right: 30%;
+}

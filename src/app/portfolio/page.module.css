@@ -1,0 +1,19 @@
+.portfolio_container {
+  width: 100vw;
+}
+.portfolio_projects {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+  border: 1px solid red;
+}
+.coverImage {
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.portfolio_box {
+  max-width: 100%;
+}

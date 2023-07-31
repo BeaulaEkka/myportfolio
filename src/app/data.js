@@ -1,0 +1,80 @@
+export const data = [
+  {
+    id: 1,
+    name: "Polar",
+    profile_image: "polar.jpg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
+    images: [
+      "polar_1",
+      "polar_2",
+      "polar_4",
+      "polar_3",
+      "polar_5",
+      "polar_6",
+      "polar_7",
+      "polar_8",
+      "polar_9",
+    ],
+  },
+
+  {
+    id: 2,
+    name: "axs",
+    profile_image: "axs.jpg",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
+    images: [
+      "1",
+      "2",
+      "3",
+      "4",
+      " 5",
+      " 6",
+      "7",
+      " 8",
+      " 9",
+      "10",
+      "11",
+      "12",
+      "13",
+    ],
+  },
+  { id: 3, name: "axs", profile_image: "legalalert.jpg", description: "" },
+  {
+    id: 4,
+    name: "dosignadmin",
+    profile_image: "dosignadmin.jpg",
+    description: "",
+  },
+  {
+    id: 5,
+    name: "taboewine",
+    profile_image: "taboewine.jpg",
+    description: "",
+  },
+  {
+    id: 6,
+    name: "phileas",
+    profile_image: "phileas.jpg",
+    description: "",
+  },
+  {
+    id: 7,
+    name: "truckdeco",
+    profile_image: "truckdeco.jpg",
+    description: "",
+  },
+  {
+    id: 8,
+    name: "exercise",
+    profile_image: "exercise.jpg",
+    description: "",
+  },
+  {
+    id: 9,
+    name: "flexwatchers",
+    profile_image: "flexwatchers.jpg",
+    description: "",
+  },
+];

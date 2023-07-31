@@ -1,0 +1,13 @@
+:root {
+  --darkorange: hsl(28, 100%, 50%);
+  --darkpink: hsl(353, 80%, 61%);
+  --darkblue: hsl(195, 55%, 57%);
+  --darkgray: hsl(0, 0%, 47%);
+  --lightblue: hsl(195, 73%, 70%);
+  --lightpink: hsl(353, 99%, 71%);
+  --lightorange: hsl(40, 98%, 56%);
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
