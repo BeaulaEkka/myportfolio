@@ -61,7 +61,7 @@ const About = () => {
             <SocialMedia />
           </div>
 
-          <h4>Drop me a line !</h4>
+          <h4 className={styles.dropmealine}>Drop me a line !</h4>
           <Contactmebutton />
         </div>
       </section>
