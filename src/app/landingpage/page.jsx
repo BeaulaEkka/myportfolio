@@ -85,7 +85,7 @@ const LandingPage = () => {
     closeMenu();
   };
   const pages =
-    typeof window !== "undefined" && window.innerWidth < 1400 ? 8 : 4.3;
+    typeof window !== "undefined" && window.innerWidth < 1400 ? 10 : 4.3;
 
   return (
     <Parallax pages={pages} ref={ref} className={styles.parallaxContainer}>
@@ -95,7 +95,7 @@ const LandingPage = () => {
         factor={0.08}
         style={{ zIndex: "9999", height: "4rem" }}
         className={styles.scrollbuttons}
-        sticky={{ start: 0, end: 8.3 }}
+        sticky={{ start: 0, end: 10 }}
       >
         <div className={styles.buttonandbeaula}>
           <div>
@@ -221,7 +221,7 @@ const LandingPage = () => {
       <ParallaxLayer offset={0} speed={1.9}>
         <div className={`${styles.landingpage_clouds} ${styles.cloudc}`}></div>
       </ParallaxLayer>
-      <ParallaxLayer offset={0} speed={4}>
+      <ParallaxLayer offset={0} speed={3}>
         <Image
           src="/assets/superwoman.png"
           width={357}
@@ -230,11 +230,17 @@ const LandingPage = () => {
           className={styles.landingpage_superwoman}
         />
       </ParallaxLayer>
+
       <ParallaxLayer offset={0} speed={2}>
         <div className={`${styles.landingpage_clouds} ${styles.cloudd} `}></div>
       </ParallaxLayer>
 
-      <ParallaxLayer offset={1} speed={3} style={{ zIndex: "10" }} factor={1.7}>
+      <ParallaxLayer
+        offset={1}
+        speed={0.5}
+        style={{ zIndex: "10" }}
+        factor={1.7}
+      >
         <div className={styles.aboutContainer} id="aboutPagea">
           <About />
         </div>
@@ -258,7 +264,7 @@ const LandingPage = () => {
 
       <ParallaxLayer
         offset={
-          typeof window !== "undefined" && window.innerWidth < 1400 ? 7.7 : 4
+          typeof window !== "undefined" && window.innerWidth < 1400 ? 9.7 : 4
         }
         speed={0}
         style={{ zIndex: "999" }}

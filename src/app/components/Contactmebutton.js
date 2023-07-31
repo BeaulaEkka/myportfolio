@@ -13,7 +13,7 @@ const Contactmebutton = () => {
   return (
     <button
       type="button"
-      onClick={() => handleEmailClick}
+      onClick={handleEmailClick}
       className={styles.emailmebutton}
     >
       CONTACT ME
