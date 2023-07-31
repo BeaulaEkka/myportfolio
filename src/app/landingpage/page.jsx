@@ -248,9 +248,9 @@ const LandingPage = () => {
 
       <ParallaxLayer
         offset={
-          typeof window !== "undefined" && window.innerWidth < 1400 ? 3.5 : 2.5
+          typeof window !== "undefined" && window.innerWidth < 1400 ? 4.5 : 2.5
         }
-        speed={0.5}
+        speed={1}
         style={{ zIndex: "999" }}
         className={styles.portfoliodiv}
         factor={
