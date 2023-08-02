@@ -254,12 +254,12 @@ In a world where connectivity and digital transformation are paramount, AXS ICT 
     tasks: [" Logo Design", "Corporate Identity", "Flyers"],
     tools_used: ["Photoshop", "Illustrator"],
     images: [
-      "blackgate-1.jpg",
-      "blackgate-2.jpg",
-      "blackgate-3.jpg",
-      "blackgate-4.jpg",
-      "blackgate-5.jpg",
-      "blackgate-6.jpg",
+      "blackgate_1.jpg",
+      "blackgate_2.jpg",
+      "blackgate_3.jpg",
+      "blackgate_4.jpg",
+      "blackgate_5.jpg",
+      "blackgate_6.jpg",
     ],
   },
   {
