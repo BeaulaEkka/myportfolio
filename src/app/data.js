@@ -10,7 +10,7 @@ export const data = [
        `,
     paragraph2: ` Feel free to modify add new Events.`,
     main_image: "/assets/portfolio/amazonia.jpg",
-    my_role: ["Frontend Development ", "UX/UI"],
+    my_role: ["Frontend Development "],
     tasks: ["Frontend App Development "],
     tools_used: ["Next", "NextAuth", "ReduxToolkit", "Tailwind"],
     images: [
