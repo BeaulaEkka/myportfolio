@@ -1,5 +1,29 @@
 export const data = [
   {
+    id: 13,
+    name: "amazonia",
+    display_name: "Amazon Clone-Amazonia",
+    profile_image: "amazonia.jpg",
+    live_site: "https://winc-events.netlify.app/",
+    paragraph1: `A dynamic React application that showcases a list of events with filtering options.
+    This project demonstrates advanced React concepts and integrates with Chakra UI for a modern and visually appealing user interface. Users can search for events, filter them based on categories, and even add new events through a modal form. The application fetches event data from an API and allows users to navigate to individual event pages for more details. Allows the user to add events using a modal and also edit and delete the same.
+       `,
+    paragraph2: ` Feel free to modify add new Events.`,
+    main_image: "/assets/portfolio/winc-events.jpg",
+    my_role: ["Frontend Development ", "UX/UI"],
+    tasks: ["Frontend App Development "],
+    tools_used: ["React", "CSS3", "Figma", "Photoshop"],
+    images: [
+      "winc-events_1.jpg",
+      "winc-events_2.jpg",
+      "winc-events_3.jpg",
+      "winc-events_4.jpg",
+      "winc-events_5.jpg",
+      "winc-events_6.jpg",
+      "winc-events_7.jpg",
+    ],
+  },
+  {
     id: 1,
     name: "winc-events",
     display_name: " Winc Events",
