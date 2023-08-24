@@ -5,10 +5,9 @@ export const data = [
     display_name: "Amazon Clone-Amazonia",
     profile_image: "amazonia.jpg",
     live_site: "https://amazonia-three.vercel.app/",
-    paragraph1: `A dynamic React application that showcases a list of events with filtering options.
-    This project demonstrates advanced React concepts and integrates with Chakra UI for a modern and visually appealing user interface. Users can search for events, filter them based on categories, and even add new events through a modal form. The application fetches event data from an API and allows users to navigate to individual event pages for more details. Allows the user to add events using a modal and also edit and delete the same.
+    paragraph1: `Experience the thrill of building a fully functional Amazon clone from scratch with this dynamic portfolio project. Leveraging the power of Redux Toolkit and Tailwind CSS, this project showcases your skills in state management, responsive design, and frontend development.
        `,
-    paragraph2: ` Feel free to modify add new Events.`,
+    paragraph2: `By bringing together Redux Toolkit and Tailwind CSS, I've not only crafted an Amazon clone that mirrors the original's functionality but also showcases my ability to harness cutting-edge tools to create a polished and professional portfolio piece.`,
     main_image: "/assets/portfolio/amazonia.jpg",
     my_role: ["Frontend Development "],
     tasks: ["Frontend App Development "],
