@@ -17,7 +17,7 @@ export const data = [
       "amazonia_1.jpeg",
       "amazonia_2.jpeg",
       "amazonia_3.jpeg",
-      "amazonia_4.jpeg",
+      "amazonia_4.jpg",
     ],
   },
   {
