@@ -165,7 +165,7 @@ In a world where connectivity and digital transformation are paramount, AXS ICT 
     tasks: [" Logo Design", "Branding", "Corporate Identity"],
     tools_used: ["Photoshop", "Illustrator", "Indesign", "Figma"],
     images: [
-      "webpage.jpg",
+      "legalalert_1.jpg",
       "corporate_identity.jpg",
       "visitingCards_decked.jpg",
       "buttons.jpg",
