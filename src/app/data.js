@@ -5,7 +5,7 @@ export const data = [
     display_name: "Amazon Clone-Amazonia",
     profile_image: "amazonia.jpg",
     live_site: "https://amazonia-three.vercel.app/",
-    paragraph1: `Experience the thrill of building a fully functional Amazon clone from scratch with this dynamic portfolio project. Leveraging the power of Redux Toolkit and Tailwind CSS, this project showcases your skills in state management, responsive design, and frontend development.
+    paragraph1: `Experience the thrill of a fully functional Amazon clone built from scratch for my portfolio project. Leveraging the power of Redux Toolkit and Tailwind CSS, this project showcases my skills in state management, responsive design, and frontend development.
        `,
     paragraph2: `By bringing together Redux Toolkit and Tailwind CSS, I've not only crafted an Amazon clone that mirrors the original's functionality but also showcases my ability to harness cutting-edge tools to create a polished and professional portfolio piece.`,
     main_image: "/assets/portfolio/amazonia.jpg",
