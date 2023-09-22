@@ -12,12 +12,7 @@ export const data = [
     my_role: ["Frontend Development "],
     tasks: ["Frontend App Development "],
     tools_used: ["Next", "MongoDB", "React-Quill", "Tailwind"],
-    images: [
-      "birdie_1.jpeg",
-      "birdie_2.jpeg",
-      "birdie_3.jpeg",
-      "birdie_4.jpeg",
-    ],
+    images: ["birdie_1.jpg", "birdie_2.jpeg", "birdie_3.jpeg", "birdie_4.jpeg"],
   },
   {
     id: 13,
