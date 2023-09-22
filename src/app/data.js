@@ -1,25 +1,5 @@
 export const data = [
   {
-    id: 14,
-    name: "birdie",
-    display_name: "Birdie-Travel Blog",
-    profile_image: "birdie.jpg",
-    live_site: "https://birdie-mytravelblog.vercel.app/",
-    paragraph1: `Experience the thrill of a fully functional Amazon clone built from scratch for my portfolio project. Leveraging the power of Redux Toolkit and Tailwind CSS, this project showcases my skills in state management, responsive design, and frontend development.
-       `,
-    paragraph2: `By bringing together Redux Toolkit and Tailwind CSS, I've not only crafted an Amazon clone that mirrors the original's functionality but also showcases my ability to harness cutting-edge tools to create a polished and professional portfolio piece.`,
-    main_image: "/assets/portfolio/birdie.jpg",
-    my_role: ["Frontend Development "],
-    tasks: ["Frontend App Development "],
-    tools_used: ["Next", "MongoDB", "React-Quill", "Tailwind"],
-    images: [
-      "birdie_1.jpeg",
-      "birdie_2.jpeg",
-      "birdie_3.jpeg",
-      "birdie_4.jpeg",
-    ],
-  },
-  {
     id: 13,
     name: "amazonia",
     display_name: "Amazon Clone-Amazonia",
