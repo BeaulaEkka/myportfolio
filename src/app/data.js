@@ -5,9 +5,9 @@ export const data = [
     display_name: "Birdie-Travel Blog",
     profile_image: "birdie.jpg",
     live_site: "https://birdie-mytravelblog.vercel.app/",
-    paragraph1: `Experience the thrill of a fully functional Amazon clone built from scratch for my portfolio project. Leveraging the power of Redux Toolkit and Tailwind CSS, this project showcases my skills in state management, responsive design, and frontend development.
+    paragraph1: `🌍 Exciting News! Introducing 'Birdie - My Travel Blog' 🦜✈️ I'm thrilled to share my latest project, a dynamic travel blog where you have the power to add, delete, and edit your travel stories seamlessly. 🚀 The website, fully backed by MongoDB, ensures a robust and efficient data management system.
        `,
-    paragraph2: `By bringing together Redux Toolkit and Tailwind CSS, I've not only crafted an Amazon clone that mirrors the original's functionality but also showcases my ability to harness cutting-edge tools to create a polished and professional portfolio piece.`,
+    paragraph2: `Express your travel tales with freedom using React Quill's rich text editor, allowing you to format your posts just the way you envision them! 📝✨ Whether you're a seasoned explorer or dreaming of your next adventure, Birdie is the perfect platform to share your journey.`,
     main_image: "/assets/portfolio/birdie.jpg",
     my_role: ["Frontend Development "],
     tasks: ["Frontend App Development "],
