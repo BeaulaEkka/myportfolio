@@ -3,7 +3,7 @@ export const data = [
     id: 15,
     name: "vue-quiz",
     display_name: "Quizz",
-    profile_image: "vue_quiz.jpg",
+    profile_image: "vue-quiz",
     live_site: "https://vue-quizz.netlify.app/",
     paragraph1: "A simple quiz made in Vue.js",
     main_image: "/assets/portfolio/vue_quiz.jpg",
