@@ -6,7 +6,7 @@ export const data = [
     profile_image: "vue-quiz.jpg",
     live_site: "https://vue-quizz.netlify.app/",
     paragraph1: "A simple quiz made in Vue.js",
-    main_image: "/assets/portfolio/vue_quiz.jpg",
+    main_image: "/assets/portfolio/vue-quiz.jpg",
     my_role: ["Frontend Development "],
     tasks: ["Frontend App Development "],
     tools_used: ["Vue"],
