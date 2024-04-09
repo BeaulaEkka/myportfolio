@@ -1,5 +1,18 @@
 export const data = [
   {
+    id: 15,
+    name: "vue-quiz",
+    display_name: "Quizz",
+    profile_image: "quiz_1.jpg",
+    live_site: "https://birdie-mytravelblog.vercel.app/",
+    paragraph1: "A simple quiz made in Vue.js",
+    main_image: "/assets/portfolio/vue_quiz.jpg",
+    my_role: ["Frontend Development "],
+    tasks: ["Frontend App Development "],
+    tools_used: ["Vue"],
+    images: ["quiz_1.jpg"],
+  },
+  {
     id: 14,
     name: "birdie",
     display_name: "Birdie-Travel Blog",
