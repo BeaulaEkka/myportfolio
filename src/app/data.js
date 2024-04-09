@@ -10,7 +10,7 @@ export const data = [
     my_role: ["Frontend Development "],
     tasks: ["Frontend App Development "],
     tools_used: ["Vue"],
-    images: ["quiz_1.jpg"],
+    images: ["quiz_1.jpg", "quiz_2.jpeg"],
   },
   {
     id: 14,
