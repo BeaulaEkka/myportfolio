@@ -71,12 +71,12 @@ const About = () => {
           <div className={styles.about_developmenttext}>
             <h2>Front End Stack</h2>
             <p>
-              HTML, CSS, JavaScript, Node.js, React, Vue.js, Tailwind CSS,
-              Chakra UI, Next.js, Nuxt.js, Redux, React Native, Framer Motion,
-              react-spring.
+              HTML, CSS, JavaScript, React, Vue.js, Tailwind CSS, Chakra UI,
+              Next.js, Nuxt.js, Redux, React Native, Framer Motion,
+              React-spring, GSAP.
             </p>
             <h2>Back End Stack</h2>
-            <p>Node.js, PHP-Laravel, GitHub & Git, SQL Python 3, Java</p>
+            <p>Node.js, PHP-Laravel, GitHub & Git, SQL, Python 3 and Java</p>
           </div>
           <div className={styles.about_designtext}>
             <h2>Design</h2>
