@@ -42,7 +42,7 @@ const About = () => {
         <div className={styles.about_p}>
           <p>
             {" "}
-            Hello, I&#39;m Beaula Ekka-Favejee, a Front-End developer and a
+            Hello, I&#39;m Beaula Ekka-Favejee, a Full Stack developer and a
             UX/UI designer seeking new challanges.
           </p>
           <p>
@@ -69,18 +69,21 @@ const About = () => {
       <div className={styles.about_content}>
         <div className={styles.about_skillstext}>
           <div className={styles.about_developmenttext}>
-            <h2>Front end Development</h2>
+            <h2>Front End Stack</h2>
             <p>
-              HTML, CSS, JavaScript, Node.js, Tailwind, Chakra, React, Next.js,
-              Framer motion, react-spring and Git
+              HTML, CSS, JavaScript, Node.js, React, Vue.js, Tailwind CSS,
+              Chakra UI, Next.js, Nuxt.js, Redux, React Native, Framer Motion,
+              react-spring.
             </p>
+            <h2>Back End Stack</h2>
+            <p>Node.js, PHP-Laravel, GitHub & Git, SQL Python 3, Java</p>
           </div>
           <div className={styles.about_designtext}>
             <h2>Design</h2>
             <p>
-              UX/UI, Design Systems, Web Design, Typography, Brand Identity,
-              Figma, Adobe Creative Suite - Photoshop, Illustrator, InDesign,
-              Dimensions, Lightroom, XD, Accessibility, Sustainability, Desktop
+              UX/UI, Design Systems, Design Thinking, Web Design, Typography,
+              Brand Identity, Figma, Adobe Creative Suite - Photoshop,
+              Illustrator, InDesign, Dimensions, Lightroom, XD, Desktop
               publishing.
             </p>
           </div>
