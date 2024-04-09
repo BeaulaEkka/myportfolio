@@ -207,8 +207,8 @@ const LandingPage = () => {
         <div className={styles.landingpage_herotext}>
           <h1>Hi! My name is Beaula.</h1>
           <p className={styles.landingpage_herotext_p}>
-            I&apos;m a Frontend Software Developer, a Graphic Designer and a
-            UX/UI Designer
+            I&apos;m a Full Stack Developer, a Graphic Designer and a UX/UI
+            Designer
           </p>
         </div>
       </ParallaxLayer>

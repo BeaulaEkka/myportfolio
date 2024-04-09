@@ -15,7 +15,7 @@ const Footer = () => {
 
       <div className={styles.footer_logos}>
         <Link
-          href="https://www.linkedin.com/in/beaula-ekka-favejee-97316558/"
+          href="https://www.linkedin.com/in/beaula-ekka-97316558/"
           target="_blank"
           rel="noopener noreferrer"
         >

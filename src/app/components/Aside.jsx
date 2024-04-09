@@ -7,7 +7,7 @@ const Aside = () => {
     <aside>
       <div className={styles.aside_icon_container}>
         <Link
-          href="https://www.linkedin.com/in/beaula-ekka-favejee-97316558/"
+          href="https://www.linkedin.com/in/beaula-ekka-97316558/"
           target="_blank"
           rel="noopener noreferrer"
         >
