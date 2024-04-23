@@ -85,7 +85,7 @@ const LandingPage = () => {
     closeMenu();
   };
   const pages =
-    typeof window !== "undefined" && window.innerWidth < 1400 ? 10 : 4.8;
+    typeof window !== "undefined" && window.innerWidth < 1400 ? 11 : 4.8;
 
   return (
     <Parallax pages={pages} ref={ref} className={styles.parallaxContainer}>
@@ -249,7 +249,7 @@ const LandingPage = () => {
 
       <ParallaxLayer
         offset={
-          typeof window !== "undefined" && window.innerWidth < 1400 ? 4.5 : 2.5
+          typeof window !== "undefined" && window.innerWidth < 1400 ? 5.5 : 2.5
         }
         speed={1}
         style={{ zIndex: "999" }}
