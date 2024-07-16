@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 16,
-    name: "project-management-app",
+    name: "project-management",
     display_name: "Project Management App",
     profile_image: "project-management-app.jpg",
     live_site: "https://www.beaula-management.nl/login",
