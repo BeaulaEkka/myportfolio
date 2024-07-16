@@ -5,8 +5,7 @@ export const data = [
     display_name: "Project Management App",
     profile_image: "project-management-app.jpg",
     live_site: "https://www.beaula-management.nl/login",
-    paragraph1:
-      "Project Management App made with Larave, React, MySql and Inertia",
+    paragraph1: "Project Management App made with Larave, React and MySql",
     main_image: "/assets/portfolio/project-management-app.jpg",
     my_role: ["Frontend Development ", "Backend Development"],
     tasks: ["Frontend App Development ", "Backend Development"],
@@ -19,6 +18,7 @@ export const data = [
       "pm_5.jpeg",
       "pm_6.jpeg",
       "pm_7.jpeg",
+      "pm_8.png",
     ],
   },
   {
