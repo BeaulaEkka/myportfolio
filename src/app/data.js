@@ -9,7 +9,7 @@ export const data = [
     main_image: "/assets/portfolio/project-management-app.jpg",
     my_role: ["Frontend Development ", "Backend Development"],
     tasks: ["Frontend App Development ", "Backend Development"],
-    tools_used: ["React", "Laravel", "MySql", "Inertia"],
+    tools_used: ["React", "Laravel", "MySql"],
     images: [
       "pm_1.jpeg",
       "pm_2.jpeg",
