@@ -11,7 +11,15 @@ export const data = [
     my_role: ["Frontend Development ", "Backend Development"],
     tasks: ["Frontend App Development ", "Backend Development"],
     tools_used: ["React", "Laravel", "MySql", "Inertia"],
-    images: ["project-management_1.jpeg", "project-management_2.jpeg"],
+    images: [
+      "project-management_1.jpeg",
+      "project-management_2.jpeg",
+      "project-management_3.jpeg",
+      "project-management_4.jpeg",
+      "project-management_5.jpeg",
+      "project-management_6.jpeg",
+      "project-management_7.jpeg",
+    ],
   },
   {
     id: 15,
