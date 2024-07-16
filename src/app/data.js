@@ -1,5 +1,19 @@
 export const data = [
   {
+    id: 17,
+    name: "doctor-appointment-app",
+    display_name: "Doctor Appointment App",
+    profile_image: "doctor-appointment-app.jpg",
+    live_site: "https://beaula-doctor-appointment-app.vercel.app/",
+    paragraph1:
+      "Doctor Appointment App made with Next, React, Render,Strapi and MySql",
+    main_image: "/assets/portfolio/project-management-app.jpg",
+    my_role: ["Full Stack Development"],
+    tasks: ["Full Stack Development"],
+    tools_used: ["Next", "Strapi", "Render", "MySql"],
+    images: ["doc_1.jpeg", "doc_2.jpeg", "doc_3.jpeg", "doc_4.jpeg"],
+  },
+  {
     id: 16,
     name: "project-management",
     display_name: "Project Management App",
