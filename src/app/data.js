@@ -4,7 +4,7 @@ export const data = [
     name: "project-management-app",
     display_name: "Project Management App",
     profile_image: "project-management-app.jpg",
-    live_site: "https://vue-quizz.netlify.app/",
+    live_site: "https://www.beaula-management.nl/login",
     paragraph1:
       "Project Management App made with Larave, React, MySql and Inertia",
     main_image: "/assets/portfolio/project-management-app.jpg",
