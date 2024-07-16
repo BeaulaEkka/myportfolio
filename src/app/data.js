@@ -1,5 +1,19 @@
 export const data = [
   {
+    id: 16,
+    name: "project-management-app",
+    display_name: "Project Management App",
+    profile_image: "project-management-app.jpg",
+    live_site: "https://vue-quizz.netlify.app/",
+    paragraph1:
+      "Project Management App made with Larave, React, MySql and Inertia",
+    main_image: "/assets/portfolio/project-management-app.jpg",
+    my_role: ["Frontend Development ", "Backend Development"],
+    tasks: ["Frontend App Development ", "Backend Development"],
+    tools_used: ["React", "Laravel", "MySql", "Inertia"],
+    images: ["project-management_1.jpeg", "project-management_2.jpeg"],
+  },
+  {
     id: 15,
     name: "vue-quiz",
     display_name: "Quizz",
