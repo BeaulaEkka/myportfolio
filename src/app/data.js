@@ -6,12 +6,20 @@ export const data = [
     profile_image: "doctor-appointment-app.jpg",
     live_site: "https://beaula-doctor-appointment-app.vercel.app/",
     paragraph1:
-      "Doctor Appointment App made with Next, React, Render,Strapi and MySql",
+      "Doctor Appointment App made with Next, React, Render, Kinde, Strapi and MySql",
     main_image: "/assets/portfolio/project-management-app.jpg",
     my_role: ["Full Stack Development"],
     tasks: ["Full Stack Development"],
-    tools_used: ["Next", "Strapi", "Render", "MySql"],
-    images: ["doc_1.jpeg", "doc_2.jpeg", "doc_3.jpeg", "doc_4.jpeg"],
+    tools_used: ["Next", "Strapi", "Kinde", "MySql"],
+    images: [
+      "doc_1.jpeg",
+      "doc_2.jpeg",
+      "doc_3.jpeg",
+      "doc_4.jpeg",
+      "doc_5.jpeg",
+      "doc_6.jpeg",
+      "doc_7.jpeg",
+    ],
   },
   {
     id: 16,
